@@ -1,0 +1,12 @@
+<div
+  class='large-radio-button-group__option flex-1 h-full border hover:border-blue first:rounded-l last:rounded-r
+    {{if @isSelected "border-blue bg-sky-darkest"}}
+    {{if @isDisabled "hover:bg-gray-lightest" "cursor-pointer"}}
+    '
+  data-test-large-radio-button-group-option
+  data-test-large-radio-button-group-option-is-disabled={{@isDisabled}}
+  ...attributes
+  {{on 'click' @onClick}}
+>
+  Here
+</div>
