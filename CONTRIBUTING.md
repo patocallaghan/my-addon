@@ -3,7 +3,7 @@
 ## Installation
 
 - `git clone <repository-url>`
-- `cd my-addon`
+- `cd my-test-addon`
 - `yarn install`
 
 ## Linting
@@ -13,7 +13,7 @@
 
 ## Building the addon
 
-- `cd my-addon`
+- `cd my-test-addon`
 - `yarn build`
 
 ## Running tests

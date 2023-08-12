@@ -1,4 +1,4 @@
-# my-addon
+# my-test-addon
 
 [Short description of the addon.]
 
@@ -10,7 +10,7 @@
 ## Installation
 
 ```
-ember install my-addon
+ember install my-test-addon
 ```
 
 ## Usage
